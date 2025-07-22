@@ -60,15 +60,15 @@ int main()
 	FontRenderer fontrenderTTF3(getExeDirectory() + "\\resources\\fonts\\zcoolwenyiti Regular.ttf", 18, FT_RENDER_MODE_NORMAL, dpiX, dpiY);
 	FontRenderer fontrenderTTF4(getExeDirectory() + "\\resources\\fonts\\zcoolqingkehuangyouti Regular.ttf", 18, FT_RENDER_MODE_NORMAL, dpiX, dpiY);
 
-	FontRenderer fontrenderMode1(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 6, FT_RENDER_MODE_LIGHT, dpiX, dpiY);
-	FontRenderer fontrenderMode2(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 6, FT_RENDER_MODE_MONO, dpiX, dpiY);
-	FontRenderer fontrenderMode3(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 6, FT_RENDER_MODE_LCD, dpiX, dpiY);
-	FontRenderer fontrenderMode4(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 6, FT_RENDER_MODE_SDF, dpiX, dpiY);
+	FontRenderer fontrenderMode1(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 18, FT_RENDER_MODE_LIGHT, dpiX, dpiY);
+	FontRenderer fontrenderMode2(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 18, FT_RENDER_MODE_MONO, dpiX, dpiY);
+	FontRenderer fontrenderMode3(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 18, FT_RENDER_MODE_LCD, dpiX, dpiY);
+	FontRenderer fontrenderMode4(getExeDirectory() + "\\resources\\fonts\\Source Han Sans CN Regular.otf", 18, FT_RENDER_MODE_SDF, dpiX, dpiY);
 
 	// Main loop
 	while (!glfwWindowShouldClose(window)) {
 
-		glClearColor(0.0, 0.0, 0.0, 1.0);
+		glClearColor(0.20, 0.20, 0.20, 1.0);
 		glClear(GL_COLOR_BUFFER_BIT);
 
 		//============================= different color ================================

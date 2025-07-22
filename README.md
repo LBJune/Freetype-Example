@@ -12,4 +12,6 @@
     cd /projectPath
     cmake -B ./build
 ```
+## 渲染示例
 
+![示例图片](resources/result.png)
