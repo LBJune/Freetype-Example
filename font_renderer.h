@@ -28,16 +28,13 @@ private:
     GLuint generateGlyphTexture(char32_t text, ivec2* glyphSize, ivec2* glyphBearing, GLuint * advance);
     void loadCharacters(const std::u32string& utf32_text);
     
-    // OpenGL资源
     GLuint VAO, VBO;
     GLuint shaderProgram;
-    
-    // 字体属性
+
     std::map<char32_t, Character> Characters;
     FT_Library ft;
     FT_Face face;
-    
-    // 渲染参数
+
     FT_Render_Mode renderMode;
     FT_UInt dpiX, dpiY;
     vec3 textColor = vec3(1.0f, 1.0f, 1.0f);
